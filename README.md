@@ -53,7 +53,6 @@ To get started with Nemo, follow these steps:
 ## Example Usage
 
 ### 1. Initialize Repository
-
 To initialize a new Nemo repository, use the following command:
     ```bash
     node Nemo.mjs init
