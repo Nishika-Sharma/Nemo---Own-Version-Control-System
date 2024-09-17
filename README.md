@@ -55,7 +55,6 @@ To get started with Nemo, follow these steps:
 ### 1. Initialize Repository
 
 To initialize a new Nemo repository, use the following command:
-
     ```bash
     node Nemo.mjs init
     ```
@@ -67,15 +66,13 @@ This command creates a `.nemo` directory that will store all the version control
 ### 2. Add Files
 
 Once the repository is initialized, you can add files to the staging area. Use the following command:
-
     ```bash
-    node Nemo.mjs add file1.txt
+    node Nemo.mjs add sample.txt
     ```
 
 You can add multiple files by repeating the command with different file names:
-
     ```bash
-    node Nemo.mjs add file2.txt
+    node Nemo.mjs add sample2.txt
     ```
 
 This will stage the specified files, making them ready for commit.
@@ -85,7 +82,6 @@ This will stage the specified files, making them ready for commit.
 ### 3. Commit Changes
 
 After adding files to the staging area, commit the changes with a message:
-
     ```bash
     node Nemo.mjs commit "Initial commit"
     ```
@@ -97,7 +93,6 @@ The commit command saves the changes and tracks the state of the project at that
 ### 4. View Commit Log
 
 To see a log of all previous commits, use the following command:
-
     ```bash
     node Nemo.mjs log
     ```
@@ -109,7 +104,6 @@ This will show the commit hash, date, and message for each commit in the reposit
 ### 5. Show Commit Differences
 
 To see the differences introduced in a specific commit, use the following command:
-
     ```bash
     node Nemo.mjs show <commitHash>
     ```
